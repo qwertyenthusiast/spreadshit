@@ -1,0 +1,41 @@
+<!doctype html>
+<div id="tbl-container">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/cash-dom/dist/cash.min.js"></script>
+<script src="index.js" type="module"></script>
+
+<style>
+    #tbl-container {
+        table { border-collapse: collapse; }
+        overflow: scroll;
+        user-select: none;
+    }
+
+    td, th {
+        border: 1px green solid;
+        color: black;
+        min-width: 5rem;
+        max-width: 5rem;
+    }
+
+    th, .row-helper {
+        color: gray;
+    }
+    
+    .row-helper {
+        width: 2rem;
+    }
+
+    .select-start {
+        border: 2px aqua solid;
+    }
+
+    .select-end {
+        border: 2px red solid;
+    }
+
+    #textBox {
+        margin-bottom: 1rem;
+    }
+</style>
